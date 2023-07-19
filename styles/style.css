@@ -199,6 +199,70 @@ nav>ul>li {
     width: 50%;
 }
 
+/* chatGpt */
+/* Optional: Reset default link styles */
+.button-image-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style for the image button */
+.image-button {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    border: 1px solid transparent;
+    /* Add transparent border */
+    transition: border-color 0.3s ease, color 0.3s ease;
+    /* Add transition for hover effect */
+}
+
+/* Style for the button image */
+.button-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Add spacing between the image and text */
+}
+
+/* Style for the button text */
+.button-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Hover effect */
+.image-button:hover {
+    border-color: #000;
+    /* Change border color on hover */
+}
+
+.image-button:hover .button-text {
+    color: #000;
+    /* Change text color on hover */
+}
+
+/* footer */
+
+footer>h3>span {
+    color: brown;
+    font-size: 2rem;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
 
 
 

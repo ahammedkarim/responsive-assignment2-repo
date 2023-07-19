@@ -273,6 +273,14 @@ footer {
     padding: 50px;
 }
 
+.footer-title {
+    margin-left: 500px;
+}
+
+footer>span {
+    margin-left: 400px;
+}
+
 
 
 @media screen and(max-width:576px) {

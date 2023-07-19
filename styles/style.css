@@ -251,6 +251,15 @@ a {
     /* Change text color on hover */
 }
 
+.vacancy-hunt {
+    background-color: white;
+    color: rgb(255, 192, 229);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
 /* footer */
 
 footer>h3>span {

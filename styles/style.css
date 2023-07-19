@@ -43,7 +43,7 @@ nav>ul>li {
 
 
 .letters {
-    color: rgb(63, 25, 90);
+    color: rgb(193, 66, 7);
 }
 
 .icon-color {
@@ -89,7 +89,7 @@ nav>ul>li {
 /* main section1 styles */
 .who-are-gamer {
     display: flex;
-
+    margin-top: 20px;
     background-color: lightpink;
     padding: 30px 50px;
 }
@@ -104,10 +104,103 @@ nav>ul>li {
     height: 400px;
 }
 
-.tool-tip {
-    border: 1px solid purple;
-    font-size: 2em;
+/* main section2-online game styles*/
+.online-con-heading {
+    margin-left: 500px;
 }
+
+.image-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+/* chatgpt */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the image */
+.image {
+    display: block;
+    max-width: 100%;
+}
+
+/* Style for the video overlay */
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+/* Show the video overlay on hover */
+.image-container:hover .video-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.play-conti {
+    display: flex;
+    margin-top: 170px;
+}
+
+.play-ins {
+    width: 40%;
+}
+
+.image-container {
+    width: 60%;
+}
+
+/* ....chat gpt */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the main image */
+.main-image {
+    display: block;
+    max-width: 100%;
+}
+
+/* Style for the overlay images */
+.overlay {
+    position: absolute;
+    bottom: -120px;
+    /* Adjust the positioning as needed to align with the bottom corners */
+}
+
+.overlay-left {
+    left: -150px;
+}
+
+.overlay-right {
+    right: -10px;
+}
+
+/* Careers section */
+.careers-section {
+    display: flex;
+    margin-top: 200px;
+    background-color: pink;
+}
+
+.career-content {
+    display: flex;
+}
+
+.width-measure {
+    width: 50%;
+}
+
+
+
 
 @media screen and(max-width:576px) {
     nav {

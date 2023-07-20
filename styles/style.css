@@ -42,8 +42,11 @@ nav>ul>li {
 }
 
 
-.letters {
-    color: rgb(193, 66, 7);
+.gradient-text {
+    background-image: linear-gradient(to right, purple, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .icon-color {
@@ -115,19 +118,19 @@ nav>ul>li {
     column-gap: 20px;
 }
 
-/* chatgpt */
+
 .image-container {
     position: relative;
     display: inline-block;
 }
 
-/* Style for the image */
+
 .image {
     display: block;
     max-width: 100%;
 }
 
-/* Style for the video overlay */
+
 .video-overlay {
     position: absolute;
     top: 50%;
@@ -138,7 +141,7 @@ nav>ul>li {
     transition: opacity 0.3s ease;
 }
 
-/* Show the video overlay on hover */
+
 .image-container:hover .video-overlay {
     opacity: 1;
     visibility: visible;
@@ -157,23 +160,23 @@ nav>ul>li {
     width: 60%;
 }
 
-/* ....chat gpt */
+
 .image-container {
     position: relative;
     display: inline-block;
 }
 
-/* Style for the main image */
+
 .main-image {
     display: block;
     max-width: 100%;
 }
 
-/* Style for the overlay images */
+
 .overlay {
     position: absolute;
     bottom: -120px;
-    /* Adjust the positioning as needed to align with the bottom corners */
+
 }
 
 .overlay-left {
@@ -189,6 +192,7 @@ nav>ul>li {
     display: flex;
     margin-top: 200px;
     background-color: pink;
+    padding: 140px;
 }
 
 .career-content {
@@ -199,8 +203,16 @@ nav>ul>li {
     width: 50%;
 }
 
-/* chatGpt */
-/* Optional: Reset default link styles */
+.vacancy-hunt {
+    background-color: white;
+    color: rgb(255, 192, 229);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
 .button-image-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -211,54 +223,49 @@ a {
     color: inherit;
 }
 
-/* Style for the image button */
+
 .image-button {
     display: inline-block;
     position: relative;
     padding: 10px;
-    border: 1px solid transparent;
-    /* Add transparent border */
+    border: 1px solid deeppink;
+    border-radius: 20px;
+
     transition: border-color 0.3s ease, color 0.3s ease;
-    /* Add transition for hover effect */
+
 }
 
-/* Style for the button image */
 .button-image {
     display: inline-block;
     vertical-align: middle;
     width: 30px;
-    /* Adjust the width as needed */
+
     height: 30px;
-    /* Adjust the height as needed */
+
     margin-right: 10px;
-    /* Add spacing between the image and text */
+
 }
 
-/* Style for the button text */
+
 .button-text {
     display: inline-block;
     vertical-align: middle;
+    color: purple;
+    border: 1px dotted red;
 }
 
-/* Hover effect */
+
 .image-button:hover {
-    border-color: #000;
-    /* Change border color on hover */
+    border-color: #131f9a;
+
 }
 
 .image-button:hover .button-text {
-    color: #000;
-    /* Change text color on hover */
+    color: #350505;
+
 }
 
-.vacancy-hunt {
-    background-color: white;
-    color: rgb(255, 192, 229);
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 2em;
-    font-weight: 500;
-}
+
 
 /* footer */
 
@@ -277,8 +284,13 @@ footer {
     margin-left: 500px;
 }
 
+.footer-items {
+    margin-left: 300px;
+
+}
+
 footer>span {
-    margin-left: 400px;
+    padding-right: 50px;
 }
 
 
